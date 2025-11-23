@@ -1,0 +1,42 @@
+html, body, #root {
+  height: 100%;
+  margin: 5px;
+  background-color: #FFFFFF;
+  padding: 0px 5px 10px 5px; /* More breathing room on sides */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.fly-up {
+  animation-name: flyUp;
+  animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+  opacity: 1; /* visible after animation */
+  transform: translateY(0);
+}
+
+@keyframes flyUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hide all ListItems by default */
+.MuiListItem-root {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 15px;
+}
