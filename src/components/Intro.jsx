@@ -29,7 +29,6 @@ const Intro = () => {
     }, [])
 
 
-
   return (
     <div>
 
