@@ -59,7 +59,7 @@ const Intro = () => {
                 textAlign: "center"
             }}> 
             Improve your grammar, boost your confidence, and practice real conversations with Tomas who has lived, studied, and worked across Europe and North America.
-            What I offer for 25 USD/hour:
+            What I offer for 25 EUR/hour:
         </Typography>
 
         <List>
