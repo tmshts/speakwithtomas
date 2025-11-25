@@ -11,7 +11,7 @@ const values = [
     'Grammar up to B2 level, conversation, or mixed lessons',
     'Lessons tailored to your level and goals',
     //'25 USD / hour',
-    'Online or in-person (depending on location)'
+    'Online or in-person (I currently live in Vienna)'
 ]
 
 
